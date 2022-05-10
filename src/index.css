@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-div{
+    width: 100%;
+    min-height: 100vh;
+    background: #7bed9f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-div{
+    width: 350px;
+    height: 70vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5) ;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.scrollbar{
+    height: 70%;
+    overflow-y: scroll;
+}
+
+h1{
+    background-color: aqua;
+    color: rgba(0,0,0,0.87);
+    font-size: 50px;
+    margin-bottom: 30px;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    border-radius: 4px;
+    letter-spacing: 0.00857em;
+    text-transform: uppercase;
+}
+
+input{
+    text-align: center;
+    height: 30px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+    margin-right: 20px;
+}
+
+input:hover{
+    border-bottom: 2px solid #B50EF2;
+}
+
+.newBtn{
+    width: 10px;
+    height: 30px;
+    background-color: #1976d2 !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.newBtn:hover{
+    background-color: white !important;
+    color: #1976d2 !important;
+    border: 2px solid #1976d2;
+    box-shadow: 1px 1px 3px -1px black;
+}
+
+.todo-style{
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: left;
+    display: flex;
+}
+
+.todo-style .MuiSvgIcon-root{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #1976d2 !important;
+    color: white !important;
+    border-radius: 50px !important;
+    box-shadow: 1px 1px 3px -1px black;
+    padding: 2px;
+}
+
+.todo-style .MuiSvgIcon-root:hover{
+    background-color: white !important;
+    color: red !important;
+    border: 1px solid red;
+    box-shadow: 1px 1px 3px -1px black;
+}
+
+.todo-style .MuiSvgIcon-root:active {
+    background-color: red;
+    box-shadow: 0 2px grey;
+    transform: translateY(2px);
+  }
+
+.list{
+    padding-top: 5px;
+    word-wrap: break-word;
+    width: 87%;
+}

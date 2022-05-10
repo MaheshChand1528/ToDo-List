@@ -1,0 +1,32 @@
+ol{
+  
+}
+li{
+  background-color: chocolate;
+  list-style-type: none;
+  margin: 20px;
+}
+button{
+  margin: 5px;
+}
+*{
+  margin: 0%;
+}
+.main-div{
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.center-div{
+  background-color: bisque;
+  margin: auto;
+  height: 60%;
+  text-align: center;
+  width: 30%;
+  border-radius: 10px;
+}
+h1{
+  margin: 20px;
+  background-color:cornflowerblue;
+}
